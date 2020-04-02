@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import Movie from "./Movie";
-import { BrowserRouter as Router,
-  Link,
-  Switch,
-  Route } from 'react-router-dom';
+
 
 class MoviesList extends Component {
   state = {
