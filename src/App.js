@@ -57,20 +57,3 @@ export default class App extends Component {
     );
   }
 }
-
-// const App = (props) =>(
-//       <Router>
-//         <div className="App">
-//           <header className="App-header">
-//             <Link to="/" >
-//               <img src={logo} className="App-logo" alt="logo" />
-//             </Link>
-//           </header>
-//           <Switch>
-//             <Route exact path='/' render={props => (<MoviesList {...props}/>)}/>
-//             <Route path='/:id' component={MovieDetail}/>
-//           </Switch>
-//         </div>
-
-//       </Router>
-//     );
