@@ -24,8 +24,12 @@ class MovieDetail extends Component {
       console.log(e);
     }
   }
-
+  
   render() {
+    console.log(this.state.movie.release_date)
+    let curr_date = new Date()
+    console.log(curr_date)
+
     const { movie } = this.state;
 
     return (
@@ -40,7 +44,7 @@ class MovieDetail extends Component {
           <div>
             <h1>{movie.title}</h1>
             <h2>{movie.release_date}</h2>
-            <h3>{movie.overview}</h3>
+            <p>{movie.overview}</p>
           </div>
         </MovieInfo>
       </MovieWrapper>
@@ -62,7 +66,7 @@ const MovieInfo = styled.div`
   text-align: left;
   padding: 2rem 10%;
   display: flex;
-  > div {
+  div {
       margin-left: 20px;
   }
   img{
