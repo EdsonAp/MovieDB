@@ -39,4 +39,5 @@ const Button = styled.button`
   width: 150px;
   cursor: pointer;
   outline: none;
+  padding: 15px;
 `;
